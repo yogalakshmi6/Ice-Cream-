@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hiffy Ice-Cream Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./black-cake.css" />
+    <script src="https://kit.fontawesome.com/f6cca1f490.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- overalla div start -->
+        <header class="overall-page">
+
+            <!-- ...nav div start....  -->
+            <nav>
+
+                <label for="check">
+                    <i class="fa-solid fa-bars icon-nav"></i>
+                </label>
+                <input type="checkbox" id="check">
+
+                <!-- ....button div start....  -->
+                <div class="submenu">
+                    <img class="ice-img" src="./img/logoice-removebg.png" alt="Ice-img">
+                    <a href="./index.html"><button class="nav-btn">Home</a></button>
+                    <a href="./about.html"><button class="nav-btn">About</a></button>
+                    <a href="./product.html"><button class="nav-btn">Product</a></button>
+                    <a href="./review.html"><button class="nav-btn">Review</a></button>
+                    <a href="./contact.html"><button class="nav-btn">Contact </a></button>
+
+                    <!-- ............button div end...  -->
+                </div>
+
+                <!-- ..... nav div end......  -->
+            </nav>
+
+            <header>
+                <div class="other">
+                    <div class="left-box">
+                        <img src="./img/pista-img.jpg" class="info-page" />
+                    </div>
+                    <div class="right-box">
+                        <div>
+                            <p class="first-line">Pista Ice-cream</p>
+                            <p class="rupees">₹200</p>
+                            <p class="check">Check available amount</p>
+                            <input type="number" class="pincode" placeholder="Enter the cash" /> <br>
+                            <button class="click">check</button><br><br>
+                            <input type="radio" class="egg" />With Chocolates <br>
+                            <input type="radio" class="egg" />Without Chocolates
+                            <p class="mess">About Ice-Cream in one word</p>
+                            <input type="text" class="pincode" /><br><br>
+                            <!-- <input type="number" class="num" /><br><br> -->
+                            <button class="last" onclick="addToCart('Pista Ice-Cream', 200.00)"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="yy">
+                        <div class="cart">
+                          <h2 class="hcart">Shopping Cart</h2><br>
+                          <ul id="cart-items"></ul>
+                          <p id="total">Total: Rs 0.00</p><br>
+                          <button onclick="abc()" class="checkout">Checkout</button>
+                        </div>
+                      </div>
+                    <script src="script.js"></script>
+                </div>
+
+                <div class="above-div">
+                    <div>
+                        <h3 class="coco">Pista Ice-cream Description</h3>
+                        <p>Pistachio ice cream or pistachio nut ice cream is an ice cream flavor made with pistachio nuts or flavoring. It is often distinctively green in color. Pistachio is also a flavor of sorbet and gelato. Pistachio ice cream is a layer in spumoni.At the Bakdash in Damascus, Syria, a pounded ice cream covered with pistachio called Booza is produced. It has an elastic texture made of mastic and sahlab and is famous around the Arab World. Tripoli's Al Mina district is known for its Arabic ice cream including "ashta" with pistachios.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="coco">Pista Ice-cream Delivery Details</h3>
+                        <p>Pista Ice-cream is hand-delivered by our Hiffy Ice-Cream shop delivery boys in a good quality cardboard
+                            box.choco chips and popins will be delivered as per the availability.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="coco">Pista Ice-cream Care Instructions</h3>
+                        <p>Store Pista Ice-Cream in a refrigerator. Consume Pista Ice-Cream within 1/2 hour.</p>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <h1>Hiffy IceCream shop</h1>
+                    <i class="fa-brands fa-twitter icon-brands"></i>
+                    <i class="fa-brands fa-facebook icon-brands"></i>
+                    <i class="fa-brands fa-instagram icon-brands"></i>
+                    <i class="fa-brands fa-whatsapp icon-brands"></i>
+
+                    <h4 class="get">Get in touch</h4>
+                    <h4 class="get">5th main Road, Vijaya nagar,Velachery</h4>
+                    <h4 class="get">+01234567890</h4>
+                </div>
+
+            </header>
+        </header>
+</body>

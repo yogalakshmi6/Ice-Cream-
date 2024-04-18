@@ -1,0 +1,450 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    
+    }
+
+    .ice-img{
+      width:200px;
+      height:80px;
+  }
+    
+
+.overall-page{
+      
+                background-color: #fff;
+                width:100%;
+                min-height:100vh;
+                
+}
+
+nav{
+    background-color:#59D5E0;
+    padding:10px 0px 15px 0px;
+    height: 100%;
+    width:100%;
+    position: sticky;
+    z-index: 999;
+    top:0;
+    }
+    i{
+        font-size: 30px;
+    }
+nav .icon-nav{
+                display: none;
+                color:black;
+}
+    
+    .nav h1{
+    font-size:40px;
+        
+    }
+    
+    .submenu {
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+    
+    
+    }
+    
+    .submenu a {
+        font-size:20px;
+        text-decoration:none;
+        cursor:pointer;
+         
+    }
+                
+    .nav-btn{
+      border-radius: 5px;
+      /* border: 1px solid black; */
+      width: 150px;
+      /* background-color:#f0497e; */
+      /* background-color: whitesmoke; */
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      padding: 10px 40px;
+      font-weight: bold;
+      cursor:pointer;
+      text-align: left;
+}
+.submenu .nav-btn:hover{
+/* background-color:#f49696; */
+background-color: #FF90BC;
+/* color:rgb(239, 226, 226); */
+transition: all 1s;
+}
+    nav input:checked~.submenu{
+        /* background-color:#7D7C7C; */
+        left:0;
+        transition: all 2s;
+    }
+
+    #check{
+        display: none;
+    }
+
+    .footer{
+        background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./footer.jpg);
+        width:100%;
+        background-color:#F2D8D8;
+        text-align: center;
+        padding: 40px 5px;
+        color: #fff;
+        
+   }
+
+   .footer h1{
+
+           padding: 10px;
+           font-size: 50px;
+           /* background-color: yellow; */
+   }
+   .icon-brands{
+       font-size: 40px;
+       margin-left: 10px;
+       padding: 10px 0px;
+       /* background-color: cadetblue; */
+    }
+   .get{
+
+           padding: 5px 7px;
+           font-size: 20px;
+           /* background-color: springgreen; */
+
+   }
+
+
+   
+.other{
+    background-color:#4CCD99;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+  .right-box{
+
+        padding: 40px 10px;
+        /* background-color:#DA0C81; */
+  }
+  
+  .info-page{
+    border-radius: 10px;
+        width: 100%;
+        height: 500px;
+  }
+  
+  button{
+  
+        width: 100%;
+        padding: 10px;
+        border-radius: 7px;
+        border: none;
+  }
+  
+  .first-line, .rupees{
+  
+        padding: 10px 0px;
+        font-size: 25px;
+  }
+  .check{
+  
+    padding: 10px 0px;
+    font-size: 16px;
+  
+  } 
+  
+  .pincode{
+  
+          padding: 10px 20px;
+          font-size: 16px;
+  }
+  .pincode{
+  
+        padding: 10px 80px 10px 10px;
+        margin-bottom: 13px;
+        font-size: 16px;
+  
+  }
+  .click{
+  
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 13px;
+    font-size: 16px;
+  }
+  .egg{
+    
+    font-size: 16px;
+    margin-bottom: 13px;
+  }
+  .first-line{
+
+    /* text-transform: uppercase; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+  .mess{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin-bottom: 13px;
+    font-size: 16px;
+  }
+  .last{
+  
+    margin-bottom: 13px;
+    font-size: 16px;
+    color: black;
+  
+  }
+  i{
+      color: black;
+      padding: 5px;
+  }
+  .num{
+  
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .above-div{
+  
+        padding: 20px;
+        border: 3px dashed purple;
+        /* background-color:#B0C5A4; */
+        background-color: whitesmoke;
+  }
+  .coco{
+          padding: 10px 0px 10px 0px;
+          color:purple;
+  }
+  .right-box button:hover{
+
+                background-color: #007F73;
+                color: white;
+  }
+  /* -----------------add to cart------------------------ */
+  .icon-brands{
+
+            color: #fff;
+  }
+  .icon-brands:hover{
+    color: aqua;
+  }
+  .yy{
+    text-align: center;
+    width: 250px;
+    height: 450px;
+    border: 1px solid #761b1b;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+.checkout{
+  background-color: #FF90BC;
+  color: black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  width: 100px;
+}
+.checkout:hover{
+  background-color: #59D5E0;
+  cursor: pointer;
+}
+.hcart{
+    color: black;
+}
+#cart-items{
+    list-style: none;
+}
+#total{
+    color:black;
+}
+  
+  
+  @media screen and (max-width:425px){
+  
+      .other{
+  
+              flex-direction: column;
+              padding: 30px;
+              gap:10px
+      }
+      .info-page{
+              border-radius: 10px;
+              width:300Px;
+              height:400px;
+      }
+      .first-line, .rupees{
+        font-size: 25px;
+  }
+ 
+  .check, .pincode{
+  
+          font-size: 16px;
+  }
+  .pincode{
+  
+        margin-bottom: 10px;
+        text-align: left;
+        font-size: 16px;
+  
+  }
+  .click{
+  
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .egg{
+   
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .mess{
+  
+    
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  .last{
+  
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+  
+  
+  
+  }
+  i{
+      color: black;
+      padding: 5px;
+  }
+  .num{
+  
+    padding: 10px;
+    width: 100%;
+    /* margin-left: 23px; */
+    font-size: 16px;
+  }
+  
+  
+  
+  
+  }
+  
+  @media screen and (min-width:425px) and (max-width:1020px){
+  
+  
+        .other{
+  
+              flex-direction: column;
+              padding: 30px;
+              gap: 10px;
+      }
+      .info-page{
+        border-radius: 10px;
+              width:400Px;
+              height:500px;
+      }
+      .first-line, .rupees{
+        font-size: 25px;
+  }
+  .check, .pincode{
+  
+          font-size: 16px;
+  }
+  .pincode{
+  
+        margin-bottom: 10px;
+        text-align: left;
+        font-size: 16px;
+  
+  }
+  .click{
+  
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .egg{
+   
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .mess{
+  
+    
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  .last{
+  
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+  
+  
+  
+  }
+  i{
+      color: black;
+      padding: 5px;
+  }
+  .num{
+  
+    padding: 10px;
+    width: 100%;
+    /* margin-left: 23px; */
+    font-size: 16px;
+  }
+  
+  
+  }
+
+
+
+
+
+
+
+
+
+   @media screen and (min-width:100px) and (max-width:1020px){
+
+    .submenu{
+
+        position: absolute;
+        flex-direction: column;
+        top: 54px;
+        left: -100%;
+        background-color:#E9B384;
+        width: 100%;
+        text-align:center;
+        height:90vh;
+        gap: 0px;
+        z-index: 15;
+        transition: all 3s;
+        
+    }
+    nav{
+
+        position: sticky;
+        top: 0;
+    }
+
+    nav .icon-nav{
+
+        display: inline;
+
+    }
+}
+          
+
+

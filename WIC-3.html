@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hiffy Ice-Cream Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./black-cake.css" />
+    <script src="https://kit.fontawesome.com/f6cca1f490.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- overalla div start -->
+        <header class="overall-page">
+
+            <!-- ...nav div start....  -->
+            <nav>
+
+                <label for="check">
+                    <i class="fa-solid fa-bars icon-nav"></i>
+                </label>
+                <input type="checkbox" id="check">
+
+                <!-- ....button div start....  -->
+                <div class="submenu">
+                    <img class="ice-img" src="./img/logoice-removebg.png" alt="Ice-img">
+                    <a href="./index.html"><button class="nav-btn">Home</a></button>
+                    <a href="./about.html"><button class="nav-btn">About</a></button>
+                    <a href="./product.html"><button class="nav-btn">Product</a></button>
+                    <a href="./review.html"><button class="nav-btn">Review</a></button>
+                    <a href="./contact.html"><button class="nav-btn">Contact </a></button>
+
+                <!-- ............button div end...  -->
+                </div>
+
+            <!-- ..... nav div end......  -->
+            </nav>
+
+            <header>
+                <div class="other">
+                    <div class="left-box">
+                        <img src="./img/wedding-cake1.jpeg" class="info-page" />
+                      </div>
+                      <div class="right-box">
+                        <div>
+                          <p class="first-line">Wedding Ice-Cream Cakes</p>
+                          <p class="rupees">₹3000-₹3500</p>
+                          <p class="check">Check available amount</p>
+                          <input type="number" class="pincode" placeholder="Enter the cash" /> <br>
+                          <button class="click">Check</button><br><br>
+                          <input type="radio" class="egg" />With Chocolates <br>
+                          <input type="radio" class="egg" />Without Chocolates
+                          <p class="mess">About Ice-cream in one word</p>
+                          <input type="text" class="pincode" /><br><br>
+                          <!-- <input type="number" class="num" /><br><br> -->
+                          <button class="last" onclick="addToCart('Wedding Ice-Cream Cakes', 3200.00)"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+                        </div>
+                      </div>
+                      <div class="yy">
+                        <div class="cart">
+                          <h2 class="hcart">Shopping Cart</h2><br>
+                          <ul id="cart-items"></ul>
+                          <p id="total">Total: Rs 0.00</p><br>
+                          <button onclick="abc()" class="checkout">Checkout</button>
+                        </div>
+                      </div>
+                    <script src="script.js"></script>
+                </div>
+                    </div>
+                
+                    <div class="above-div"> 
+                      <div>
+                      <h3 class="coco">Wedding Ice-Cream Cakes Description</h3>
+                      <p>Wow your guests with a unique, beautiful & delicious ice cream cake from Mancini’s of Ayr and be the wedding people talk about for years to come.It’s hard to give a price for a wedding cake without first knowing the design and work involved, as well as the flavouring and fillings, so feel free to get in touch to find out more.</p>
+                    </div>
+                
+                    <div>
+                      <h3 class="coco">Wedding Ice-Cream Cakes Delivery Details</h3>
+                      <p>Wedding Ice-Cream Cakes is delivered by our Hiffy Ice-cream shop delivery boys in a good quality cardboard box. Candle and knife will be delivered as per the availability.</p>
+                    </div>
+                
+                    <div>
+                      <h3 class="coco">Wedding Ice-Cream Cakes Instructions</h3>
+                      <p>Store Wedding Ice-Cream Cakes in a refrigerator. Consume Wedding Ice-Cream Cakes within 1 hour.</p>
+                    </div>
+                  </div>
+            
+              <div class="footer">
+                <h1>Hiffy IceCream Shop</h1>
+                <i class="fa-brands fa-twitter icon-brands"></i>
+                <i class="fa-brands fa-facebook icon-brands"></i>
+                <i class="fa-brands fa-instagram icon-brands"></i>
+                <i class="fa-brands fa-whatsapp icon-brands"></i>
+            
+                <h4 class="get">Get in touch</h4>
+                <h4 class="get">5th main Road, Vijaya nagar,Velachery</h4>
+                <h4 class="get">+01234567890</h4>
+                </div>
+            
+              </header>
+        </header>
+</body>

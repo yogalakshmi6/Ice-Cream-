@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hiffy Ice-Cream Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./black-cake.css" />
+    <script src="https://kit.fontawesome.com/f6cca1f490.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- overalla div start -->
+        <header class="overall-page">
+
+            <!-- ...nav div start....  -->
+            <nav>
+
+                <label for="check">
+                    <i class="fa-solid fa-bars icon-nav"></i>
+                </label>
+                <input type="checkbox" id="check">
+
+                <!-- ....button div start....  -->
+                <div class="submenu">
+                    <img class="ice-img" src="./img/logoice-removebg.png" alt="Ice-img">
+                    <a href="./index.html"><button class="nav-btn">Home</a></button>
+                    <a href="./about.html"><button class="nav-btn">About</a></button>
+                    <a href="./product.html"><button class="nav-btn">Product</a></button>
+                    <a href="./review.html"><button class="nav-btn">Review</a></button>
+                    <a href="./contact.html"><button class="nav-btn">Contact </a></button>
+
+                <!-- ............button div end...  -->
+                </div>
+
+            <!-- ..... nav div end......  -->
+            </nav>
+
+            <header>
+                <div class="other">
+                  <div class="left-box">
+                    <img src="./img/vanilla-img.jpg" class="info-page" />
+                  </div>
+                  <div class="right-box">
+                    <div>
+                      <p class="first-line">Vanilla Ice-Cream</p>
+                      <p class="rupees">₹100</p>
+                      <p class="check">Check available amount</p>
+                      <input type="number" class="pincode" placeholder="Enter the cash" /> <br>
+                      <button class="click">Check</button><br><br>
+                      <input type="radio" class="egg"/>With Chocolates <br>
+                      <input type="radio" class="egg"/>Without Chocolates
+                      <p class="mess">About Ice-cream in one word</p>
+                      <input type="text" class="pincode" /><br><br>
+                      <!-- <input type="number" class="num" /><br><br> -->
+                      <button class="last" onclick="addToCart('Vanilla Ice-Cream', 100.00)"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+                    </div>
+                  </div>
+                  <div class="yy">
+                    <div class="cart">
+                      <h2 class="hcart">Shopping Cart</h2><br>
+                      <ul id="cart-items"></ul>
+                      <p id="total">Total: Rs 0.00</p><br>
+                      <button onclick="abc()" class="checkout">Checkout</button>
+                    </div>
+                  </div>
+                <script src="script.js"></script>
+            </div>
+                </div>
+            
+                <div class="above-div"> 
+                  <div>
+                  <h3 class="coco">Vanilla Ice-Cream Description</h3>
+                  <p>Vanilla is frequently used to flavor ice cream, especially in North America, Asia, and Europe.Vanilla ice cream, like other flavors of ice cream, was originally created by cooling a mixture made of cream, sugar, and vanilla above a container of ice and salt.The type of vanilla used to flavor ice cream varies by location. In North America and Europe consumers are interested in a more prominent, smoky flavor, while in Ireland, a more anise-like flavor is desired.To create the smooth consistency of ice cream, the mixture has to be stirred occasionally and then returned to the container of ice and salt to continue the solidification process.</p>
+                </div>
+            
+                <div>
+                  <h3 class="coco">Vanilla Ice-Cream Delivery Details</h3>
+                  <p>Vanilla Ice-Cream is delivered by our Hiffy Ice-c shop delivery boys in a good quality cardboard box. Choco chips and popins will be delivered as per the availability.</p>
+                </div>
+            
+                <div>
+                  <h3 class="coco">Vanilla Ice-Cream Instructions</h3>
+                  <p>Store Vanilla Ice-Cream in a refrigerator. Consume Vanilla Ice-Creams within 1/2 hour.</p>
+                </div>
+              </div>
+            
+              <div class="footer">
+                <h1>Hiffy IceCream Shop</h1>
+                <i class="fa-brands fa-twitter icon-brands"></i>
+                <i class="fa-brands fa-facebook icon-brands"></i>
+                <i class="fa-brands fa-instagram icon-brands"></i>
+                <i class="fa-brands fa-whatsapp icon-brands"></i>
+            
+                <h4 class="get">Get in touch</h4>
+                <h4 class="get">5th main Road, Vijaya nagar,Velachery</h4>
+                <h4 class="get">+01234567890</h4>
+                </div>
+            
+              </header>
+        </header>
+</body>
